@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* style.css */
+body, html {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /*background-color: #87CEEB;*/
+}
+
+.game-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #87CEEB;
+    background-image: url(images/jump.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bird {
+    width: 60px;
+    height: 60px;
+    background-image: url('images/bird.png');
+    background-size: cover;
+    background-color: rgba(255, 140, 140, 0.466);
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+}
+
+.obstacle {
+    width: 60px;
+    background-color: green;
+    position: absolute;
+}
+
+.obstacle-top {
+    height: 200px;
+    bottom: 0;
+}
+
+.obstacle-bottom {
+    height: 200px;
+    top: 0;
+}
+
+.score {
+    margin: 20px 20px 20px 1340px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+    width: 170px;
+    height: 55px;
+    background: rgb(255, 72, 72); 
+    border-radius: 30px;
+}
+
