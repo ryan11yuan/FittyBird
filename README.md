@@ -1,4 +1,4 @@
-# Fitness Flappy Bird App
+# FitByFlapping
 
-Fun spin on flappy bird to help meet your fitness goals!
+FitByFlapping is a fun spin on flappy bird to help meet your fitness goals! 
 
