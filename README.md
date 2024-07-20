@@ -1,6 +1,6 @@
-# FitByFlapping
+# FittyBird
 
-FitByFlapping is a fun spin on flappy bird to help meet your fitness goals! Everytime the player does a jumping jack, the flappy bird jumps as well. 
+FittyBird is a fun spin on flappy bird to help meet your fitness goals! Everytime the player does a jumping jack, the flappy bird jumps as well. 
 
 Game demos:
 
